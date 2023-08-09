@@ -9,8 +9,18 @@ body {
     padding: 10px;
     text-align: center;
     border-radius: 0px 0px 30px 30px;
+}
+
+.header .logo{
+    width: 50px;
+    position: absolute
 
 }
+
+.header .titulo {
+
+}
+
 
 .h1header {
     color: #C0C0C0;
