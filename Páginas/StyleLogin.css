@@ -4,16 +4,45 @@ body {
     border:0
 }
 
+
 .header {
     background-color: #620A59;
     padding: 10px;
     text-align: center;
     border-radius: 0px 0px 30px 30px;
 
+    display: flex;
+    flex-flow: space-around;
+}
+
+.header img {
+    height: 90px;
+    z-index: 100;
+    margin-right: 30rem;
 }
 
 .h1header {
     color: #C0C0C0;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+
+  }
+  
+  .image-container img {
+    max-width: 100%; 
+    max-height: 100%;
+  }
+
+a.emailUsuario {
+    margin-bottom: 60px;
 }
 
 .loginBotao {
@@ -24,9 +53,10 @@ body {
     border-radius: 30px;
     cursor: pointer;
     width: 34px;
-    margin: 0px;
+    margin: 600px;
 }
 
 .Registro{
     cursor: pointer;
+
 }
