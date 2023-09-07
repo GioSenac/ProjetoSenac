@@ -1,16 +1,17 @@
 body {
-    padding:0;
-    margin:0;
-    border:0
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 
 .header {
-    background-color: #620a5900;
-    padding: 10px;
+    background-color: #620A59;
+    padding: 1rem;
     text-align: center;
     border-radius: 0px 0px 30px 30px;
-    margin-bottom: 56px;
+    width: 81rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-flow: space-around;
 }
@@ -18,28 +19,13 @@ body {
 .header img {
     height: 90px;
     z-index: 100;
-    margin-right: 28rem;
+    margin-right: 30rem;
 }
 
 .h1header {
-    color: #ffffff;
+    color: #C0C0C0;
+
 }
-
-.image-container {
-    width: 300px;
-    height: 200px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-
-  }
-
-  .image-container img {
-    max-width: 100%; 
-    max-height: 100%;
-  }
 
 a.emailUsuario {
     color: white;
@@ -50,7 +36,7 @@ a.emailUsuario {
     background-color: black;
     text-size-adjust: 100%;
     color: #ffffff;
-    padding: 10px;
+    padding: 0.5rem;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -58,22 +44,22 @@ a.emailUsuario {
     display: flex;
     margin: auto;
     justify-content: center;
-    text-size-adjust: 10px;
+    font-size: 133%;
     text-decoration: none;
 }
 
-.Registro{
+.Registro {
     cursor: pointer;
 
 }
 
-body{
+body {
     background-image: url(../Imagens/FundoRegistro.gif);
     background-repeat: no-repeat;
-    background-size: 1400px 670px;
+    background-size: 84rem 45rem;
 }
 
-.LoginCentro{
+.LoginCentro {
     width: 47%;
     height: 1%;
     margin-left: 25%;
@@ -82,12 +68,19 @@ body{
     margin-top: 0%;
     border: 3px solid black;
     border-style: outset;
-    padding: 15px;;
+    padding: 15px;
 }
 
-.registroRota{
+.registroRota {
     margin-left: 37rem;
+    margin-top: 2rem;
     color: black;
+}
+
+.rota {
+    color: rgb(216, 196, 196);
+    cursor: pointer;
+
 }
 
 .labelEmail {

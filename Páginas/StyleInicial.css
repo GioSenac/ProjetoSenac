@@ -1,71 +1,133 @@
 body {
-    padding:0;
-    margin:0;
-    border:0
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 
 .header {
-    background-color: #620A59;
-    padding: 10px;
-    text-align: center;
-    border-radius: 0px 0px 30px 30px;
-    margin-bottom: 56px;
-    display: flex;
-    flex-flow: space-around;
+  background-color: #620A59;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0px 0px 30px 30px;
+  width: 81rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-flow: space-around;
 }
 
 .header img {
-    height: 90px;
-    z-index: 100;
-    margin-right: 30rem;
+  height: 90px;
+  z-index: 100;
+  margin-right: 30rem;
 }
 
 .h1header {
-    color: #C0C0C0;
+  color: #C0C0C0;
 }
 
-.image-container {
-    width: 300px;
-    height: 200px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-
-  }
-
-  .image-container img {
-    max-width: 100%; 
-    max-height: 100%;
-  }
-
-  body{
-    background-image: url(../Imagens/FundoInicial.gif);
-  }
+body {
+  background-image: url(../Imagens/FundoInicial.gif);
+}
 
 .content-container {
   background-color: #620A59;
-  padding: 30px;
-  width: 1150px;
-  height: 1200px;
-  margin-left: 56px;
+  padding: 3rem;
+  width: 66rem;
+  height: 75rem;
+  margin-left: 5rem;
   border-radius: 30px 30px 30px 30px;
 }
 
-.titulo{
+.titulo {
   text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 236%;
   display: flex;
   justify-content: center;
-  color: white ;
+  color: white;
+  position: relative;
+  top: -2%;
+  margin-bottom: 6%;
 }
 
-.SonicFrontiers{
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  justify-content: center;
 
+.SonicFrontiers {
+  display: flex;
+
+}
+
+.SonicFrontiers a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 123%;
+  position: absolute;
+  top: 78%;
+  right: 32%;
+  display: flex;
+}
+
+.SonicFrontiers img {
+  position: relative;
+  top: 30%;
+  left: 6%;
+  width: 30rem;
+  height: 16rem;
+}
+
+.FinalFantasyVII {
+  display: flex;
+  position: relative;
+  top: 11%;
+  left: 3%;
+}
+
+.FinalFantasyVII a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 48%;
+  right: 13%;
+  font-size: 123%;
+}
+
+.FinalFantasyVII img {
+  width: 30.2rem;
+  height: 16rem;
+  position: relative;
+  top: 93%;
+  right: -2.7%;
+}
+
+.Persona5Royal {
+  display: flex;
+  position: relative;
+  bottom: -22%;
+  left: 0%;
+}
+
+.Persona5Royal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 123%;
+  position: absolute;
+  top: 47%;
+  right: 27%;
+  display: flex;
+}
+
+.Persona5Royal img {
+  position: relative;
+  bottom: 30%;
+  left: 6%;
+  width: 30.3rem;
+  height: 16rem;
 }
