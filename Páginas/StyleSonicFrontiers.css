@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  
+  .header {
+    background-color: #130C65;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    width: 81rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-flow: space-around;
+  }
+  
+  .header img {
+    height: 90px;
+    z-index: 100;
+    margin-right: 30rem;
+  }
+  
+  .h1header {
+    color: #C0C0C0;
+  }
+body{
+    background-image: url(../Imagens/SonicFrontiersFundo.jpg);
+}
+
+.icon img {
+    width: 22rem;
+    height: 13rem;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+}
+
+.SecaoNota{
+    padding: 3rem;
+    width: 28rem;
+    height: 4rem;
+    background-color: #4016EB;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.Secao1{
+    position: relative;
+    top: -91%;
+    left: -11%;
+    color: white;
+}
+
+.SecaoNota .nota1 {
+    position: relative;
+    left: 30%;
+    top: 43%;
+    text-align: center;
+}
+
+.SecaoNota .titulo1 {
+    position: relative;
+    left: 31%;
+    top: 32%;
+    width: 5rem;
+    text-align: center;
+}
+
+.Secao2{
+    position: relative;
+    top: -55%;
+    left: 0%;
+    color: white;
+}
+
+.SecaoNota .nota2 {
+    position: relative;
+    left: 606%;
+    top: 10%;
+    text-align: center;
+}
+
+.SecaoNota .titulo2 {
+    position: absolute;
+    left: 15%;
+    top: 46%;
+    width: 7rem;
+    text-align: center;
+
+}
+
+.Secao3{
+    position: relative;
+    top: -53%;
+    left: 33%;
+    color: white;
+}
+
+.SecaoNota .nota3 {
+    position: relative;
+    left: 415%;
+    top: 10%;
+    text-align: center;
+}
+
+.SecaoNota .titulo3 {
+    position: absolute;
+    left: 39%;
+    top: 52%;
+    text-align: center;
+
+}
+
+.Secao4{
+    position: relative;
+    top: -59%;
+    left: 61%;
+    color: white;
+}
+
+.SecaoNota .nota4 {
+    position: relative;
+    left: 358%;
+    top: 21%;
+}
+
+.SecaoNota .titulo4 {
+    position: absolute;
+    left: -370%;
+    top: 63%;
+    text-align: center;
+    width: 8rem;
+}
+
+.Sinopse {
+    padding: 5rem;
+    background-color: #0A0F89;
+    width: 29rem;
+    height: 7rem;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    justify-content: center;
+}
+
+.SinopseTexto{
+    color:white;
+    text-align: center;
+}
+
+.SecaoComentario{
+    background-color: #0A0864;
+    position: absolute;
+    bottom: -64%;
+    left: 10%;
+}
+
+.ComentarioTitulo{
+    color: white;
+    text-align: center;
+
+}
