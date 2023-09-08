@@ -1,0 +1,289 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+  }
+   
+  .header {
+    background-color: #690505;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    width: 96.7vw;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-flow: space-around;
+  }
+  
+  .header img {
+    height: 90px;
+    z-index: 100;
+    margin-right: 30rem;
+  }
+  
+  .h1header {
+    color: #C0C0C0;
+  }
+
+body{
+    background-image: url(../Imagens/Persona5Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 147vw 210vh;
+}
+
+.icon img {
+    width: 20vw;
+    height: 36vh;
+    position: absolute;
+    top: 34%;
+    left: 15%;
+}
+
+.SecaoNota{
+    padding: 3rem;
+    width: 28rem;
+    height: 4rem;
+    background-color: #A10606;
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 43%;
+}
+
+.Secao1{
+    position: relative;
+    top: -91%;
+    left: -11%;
+    color: white;
+}
+
+.SecaoNota .nota1 {
+    position: relative;
+    left: 30%;
+    top: -10%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 201%;
+}
+
+.SecaoNota .titulo1 {
+    position: relative;
+    left: 28%;
+    top: -39%;
+    width: 5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.Divisao1{
+    background-color: white;
+    height: 9vh;
+    width: 0.1vw;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+}
+
+.Secao2{
+    position: relative;
+    top: -55%;
+    left: 0%;
+    color: white;
+}
+
+.SecaoNota .nota2 {
+    position: relative;
+    left: 268%;
+    top: -45%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 201%;
+}
+
+.SecaoNota .titulo2 {
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    width: 7rem;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.Divisao2{
+    background-color: white;
+    height: 24vh;
+    width: 0.1vw;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+}
+
+.Secao3{
+    position: relative;
+    top: -53%;
+    left: 33%;
+    color: white;
+}
+
+.SecaoNota .nota3 {
+    position: relative;
+    left: 234%;
+    top: -43%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 201%;
+}
+
+.SecaoNota .titulo3 {
+    position: absolute;
+    left: 39%;
+    top: 52%;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.Divisao3{
+    background-color: white;
+    height: 9vh;
+    width: 0.1vw;
+    position: absolute;
+    top: 11%;
+    left: 73%;
+}
+
+.Secao4{
+    position: relative;
+    top: -59%;
+    left: 61%;
+    color: white;
+}
+
+.SecaoNota .nota4 {
+    position: relative;
+    left: 170%;
+    top: -35%;
+    font-family: sans-serif;
+    font-size: 201%;
+}
+
+.SecaoNota .titulo4 {
+    position: absolute;
+    left: -129%;
+    top: 62%;
+    text-align: center;
+    width: 9vw;
+    font-family: sans-serif;
+}
+
+.Sinopse {
+    background-color: #A10606;
+    width: 66vw;
+    height: 23vh;
+    position: absolute;
+    top: 94%;
+    left: 16%;
+    padding: 2%;
+}
+
+.SinopseTexto{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 110%;
+}
+
+.SecaoComentario{
+    background-color: #621616;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: -113%;
+    left: 4%;
+    width: 92%;
+}
+
+.ComentarioTitulo{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 273%;
+}
+
+.NomeUsuario1{
+    position: relative;
+    bottom: 5%;
+    margin-left: 8vw;
+    width: 80vw;
+    color: white;
+    font-family: sans-serif;
+}
+
+.TextoComentario1{
+    bottom: 5%;
+    margin-left: 8vw;
+    width: 80vw;
+    font-family: sans-serif;
+}
+
+.IconUsuario1{
+    width: 3vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 47%;
+    left: 2.8%;
+    z-index: 10;
+}
+
+.CirculoPerfil1{
+    background: white;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 9vh;
+    position: absolute;
+    bottom: 44%;
+    left: 1.9%;
+}
+
+.Comentario2{
+    margin-top: 5rem;
+}
+
+.NomeUsuario2{
+    position: relative;
+    bottom: 5%;
+    margin-left: 8vw;
+    width: 80vw;
+    color: white;
+    font-family: sans-serif;
+}
+
+.TextoComentario2{
+    position: relative;
+    bottom: 5%;
+    margin-left: 8vw;
+    width: 80vw;
+    font-family: sans-serif;
+}
+
+.IconUsuario2{
+    width: 3vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 9%;
+    left: 2.8%;
+    z-index: 10;
+}
+
+.CirculoPerfil2{
+    background: white;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 9vh;
+    position: absolute;
+    bottom: 6%;
+    left: 1.9%; 
+}
